@@ -1,5 +1,7 @@
 import './style.css'
 
+import Fuse from 'fuse.js'
+
 const data = require('./data.json')
 
 const NODE_REL = 8
